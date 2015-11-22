@@ -8,7 +8,7 @@ namespace MillCalc
 {
 	class PlayerInfo
 	{
-		private int playerHP, playerDraw, playerDamage = 0, playerFatigue = 1, playerDeck, deathTime = 0;
+		private int playerHP, playerDraw, playerDamage = 0, playerFatigue = 0, playerDeck, deathTime = 0;
 
 		public PlayerInfo(int playerHP, int playerDraw, bool fatigueChecked, int playerFatigue, int playerDeck)
 		{
@@ -108,8 +108,8 @@ namespace MillCalc
 			int totalDraw = Draw;
 			while(totalDraw > 0)
 			{
-				HP -= Fatigue;
 				Fatigue++;
+				HP -= Fatigue;
 				totalDraw--;
 				if (HP <= 0) Death = totalDraw;
 			}

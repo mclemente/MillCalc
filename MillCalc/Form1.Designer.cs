@@ -345,11 +345,6 @@
 			// playerCardsDrawUpDown
 			// 
 			this.playerCardsDrawUpDown.Location = new System.Drawing.Point(99, 104);
-			this.playerCardsDrawUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
 			this.playerCardsDrawUpDown.Name = "playerCardsDrawUpDown";
 			this.playerCardsDrawUpDown.Size = new System.Drawing.Size(52, 20);
 			this.playerCardsDrawUpDown.TabIndex = 26;
@@ -383,11 +378,6 @@
 			// opponentCardsDrawUpDown
 			// 
 			this.opponentCardsDrawUpDown.Location = new System.Drawing.Point(99, 317);
-			this.opponentCardsDrawUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
 			this.opponentCardsDrawUpDown.Name = "opponentCardsDrawUpDown";
 			this.opponentCardsDrawUpDown.Size = new System.Drawing.Size(52, 20);
 			this.opponentCardsDrawUpDown.TabIndex = 28;
